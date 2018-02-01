@@ -48,6 +48,10 @@ export default new Router({
                 {
                     path: '/mixcharts',
                     component: resolve => require(['../components/page/MixCharts.vue'], resolve)    // vue-echarts-v3组件
+                },
+                {
+                    path: '/popup',
+                    component: resolve => require(['../components/page/Popup.vue'], resolve)    // vue-popup
                 }
             ]
         },
